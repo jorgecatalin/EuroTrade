@@ -7,7 +7,7 @@ export default function Proiect(props) {
   })
   return (
     <div className="ContainerProiect">
-      <BaraDreapta></BaraDreapta>
+      <BaraDreapta data={props.date.dimensiuneBara}></BaraDreapta>
       <div className="containerPortofoliuDate">
         <div style={{ fontWeight: 900 }}>{props.date.titlu}</div>
         <div style={{ fontSize: "3vh" }}>{props.date.data}</div>

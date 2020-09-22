@@ -13,16 +13,16 @@ ReactDOM.render(
   <React.StrictMode>
     <Router>
       <Switch>
-        <Route exact={true} path="/">
+        <Route exact={true} path="/EuroTrade">
           <App />
         </Route>
-        <Route exact={true} path="/Utilaje">
+        <Route exact={true} path="/EuroTrade/Utilaje">
           <Utilaje />
         </Route>
-        <Route exact={true} path="/Portofoliu">
+        <Route exact={true} path="/EuroTrade/Portofoliu">
           <Portofoliu />
         </Route>
-        <Route exact={true} path="/Contact">
+        <Route exact={true} path="/EuroTrade/Contact">
           <Contact />
         </Route>
       </Switch>

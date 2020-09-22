@@ -2,6 +2,7 @@ import React from "react"
 import Navbar from "./Componente/Navbar.js"
 import Titlu from "./ComponentePortofoliu/Titlu.js"
 import Proiect from "./ComponentePortofoliu/Proiect.js"
+import Footer from "./Componente/Footer.js"
 import { CSSTransition } from "react-transition-group"
 
 let poze = [
@@ -41,6 +42,7 @@ export default function Portofoliu(props) {
           data: "21 Septembrie 2020 - 30 Septembrie 2020",
           locatia: "Bibesti 213",
           poze: poze,
+          dimensiuneBara: "110%",
         }}
       ></Proiect>
       <Proiect
@@ -49,8 +51,10 @@ export default function Portofoliu(props) {
           data: "15 Iulie 2020 - 25 Iulie 2020",
           locatia: "Bolaria Sd 2163",
           poze: poze,
+          dimensiuneBara: "80%",
         }}
       ></Proiect>
+      <Footer></Footer>
     </div>
   )
 }
