@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f39264e9d3d85f322d2277642d1ed06a",
+    "revision": "a4def6bfeef25cab94b71f31b4aa6102",
     "url": "/EuroTrade/index.html"
   },
   {
-    "revision": "bcedbeedc64e57272052",
-    "url": "/EuroTrade/static/css/main.0fb01c8c.chunk.css"
+    "revision": "72ab05efab6e49651eef",
+    "url": "/EuroTrade/static/css/main.7e465695.chunk.css"
   },
   {
-    "revision": "d980eaf8ce2e587dd3cf",
-    "url": "/EuroTrade/static/js/2.5a1f0cd6.chunk.js"
+    "revision": "f7d521f504b62b8d402e",
+    "url": "/EuroTrade/static/js/2.0259a8b7.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/EuroTrade/static/js/2.5a1f0cd6.chunk.js.LICENSE.txt"
+    "url": "/EuroTrade/static/js/2.0259a8b7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bcedbeedc64e57272052",
-    "url": "/EuroTrade/static/js/main.b8151d08.chunk.js"
+    "revision": "72ab05efab6e49651eef",
+    "url": "/EuroTrade/static/js/main.ec6f5603.chunk.js"
   },
   {
     "revision": "0102a810ae8a56db4abc",
