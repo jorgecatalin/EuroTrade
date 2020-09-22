@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/EuroTrade/static/css/main.7e465695.chunk.css",
-    "main.js": "/EuroTrade/static/js/main.ec6f5603.chunk.js",
-    "main.js.map": "/EuroTrade/static/js/main.ec6f5603.chunk.js.map",
+    "main.css": "/EuroTrade/static/css/main.7b488186.chunk.css",
+    "main.js": "/EuroTrade/static/js/main.5fc22e09.chunk.js",
+    "main.js.map": "/EuroTrade/static/js/main.5fc22e09.chunk.js.map",
     "runtime-main.js": "/EuroTrade/static/js/runtime-main.30f8a045.js",
     "runtime-main.js.map": "/EuroTrade/static/js/runtime-main.30f8a045.js.map",
-    "static/js/2.0259a8b7.chunk.js": "/EuroTrade/static/js/2.0259a8b7.chunk.js",
-    "static/js/2.0259a8b7.chunk.js.map": "/EuroTrade/static/js/2.0259a8b7.chunk.js.map",
+    "static/js/2.a2c24b48.chunk.js": "/EuroTrade/static/js/2.a2c24b48.chunk.js",
+    "static/js/2.a2c24b48.chunk.js.map": "/EuroTrade/static/js/2.a2c24b48.chunk.js.map",
     "index.html": "/EuroTrade/index.html",
-    "precache-manifest.1c182e60d305480b93388e6fd3f4efaf.js": "/EuroTrade/precache-manifest.1c182e60d305480b93388e6fd3f4efaf.js",
+    "precache-manifest.1d42ed9938f070b47aec7cccbb0ebf08.js": "/EuroTrade/precache-manifest.1d42ed9938f070b47aec7cccbb0ebf08.js",
     "service-worker.js": "/EuroTrade/service-worker.js",
-    "static/css/main.7e465695.chunk.css.map": "/EuroTrade/static/css/main.7e465695.chunk.css.map",
-    "static/js/2.0259a8b7.chunk.js.LICENSE.txt": "/EuroTrade/static/js/2.0259a8b7.chunk.js.LICENSE.txt",
+    "static/css/main.7b488186.chunk.css.map": "/EuroTrade/static/css/main.7b488186.chunk.css.map",
+    "static/js/2.a2c24b48.chunk.js.LICENSE.txt": "/EuroTrade/static/js/2.a2c24b48.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/EuroTrade/static/media/1.f2703cf2.jpg",
     "static/media/10.jpg": "/EuroTrade/static/media/10.98bbd9ab.jpg",
     "static/media/11.jpg": "/EuroTrade/static/media/11.4f302498.jpg",
@@ -38,8 +38,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.30f8a045.js",
-    "static/js/2.0259a8b7.chunk.js",
-    "static/css/main.7e465695.chunk.css",
-    "static/js/main.ec6f5603.chunk.js"
+    "static/js/2.a2c24b48.chunk.js",
+    "static/css/main.7b488186.chunk.css",
+    "static/js/main.5fc22e09.chunk.js"
   ]
 }
