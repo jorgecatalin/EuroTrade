@@ -1,26 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import React from "react"
+import Navbar from "./Componente/Navbar.js"
+import BackgroundTop from "./Componente/BackgroundTop.js"
+import Despre from "./Componente/Despre.js"
+import Contact from "./Componente/Contact.js"
+import Footer from "./Componente/Footer.js"
+import InformatiiNumar from "./Componente/InformatiiNumar.js"
+import { CSSTransition } from "react-transition-group"
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="ContainerApp">
+      <CSSTransition appear={true} in={true} timeout={500} classNames="fade2">
+        <Navbar></Navbar>
+      </CSSTransition>
+      <BackgroundTop></BackgroundTop>
+      <Despre></Despre>
+      <InformatiiNumar></InformatiiNumar>
+      <Contact></Contact>
+      <Footer></Footer>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
