@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/EuroTrade/precache-manifest.e5ea8c1615c9613b4ba93186612d75b1.js"
+  "/EuroTrade/precache-manifest.dcde3dcced3b71de4eb8331749599aa9.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/EuroTrade/static/css/main.4fd496f3.chunk.css",
+    "main.css": "/EuroTrade/static/css/main.efdde0b6.chunk.css",
     "main.js": "/EuroTrade/static/js/main.140c9717.chunk.js",
     "main.js.map": "/EuroTrade/static/js/main.140c9717.chunk.js.map",
     "runtime-main.js": "/EuroTrade/static/js/runtime-main.30f8a045.js",
@@ -8,9 +8,9 @@
     "static/js/2.a2c24b48.chunk.js": "/EuroTrade/static/js/2.a2c24b48.chunk.js",
     "static/js/2.a2c24b48.chunk.js.map": "/EuroTrade/static/js/2.a2c24b48.chunk.js.map",
     "index.html": "/EuroTrade/index.html",
-    "precache-manifest.e5ea8c1615c9613b4ba93186612d75b1.js": "/EuroTrade/precache-manifest.e5ea8c1615c9613b4ba93186612d75b1.js",
+    "precache-manifest.dcde3dcced3b71de4eb8331749599aa9.js": "/EuroTrade/precache-manifest.dcde3dcced3b71de4eb8331749599aa9.js",
     "service-worker.js": "/EuroTrade/service-worker.js",
-    "static/css/main.4fd496f3.chunk.css.map": "/EuroTrade/static/css/main.4fd496f3.chunk.css.map",
+    "static/css/main.efdde0b6.chunk.css.map": "/EuroTrade/static/css/main.efdde0b6.chunk.css.map",
     "static/js/2.a2c24b48.chunk.js.LICENSE.txt": "/EuroTrade/static/js/2.a2c24b48.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/EuroTrade/static/media/1.f2703cf2.jpg",
     "static/media/10.jpg": "/EuroTrade/static/media/10.98bbd9ab.jpg",
@@ -39,7 +39,7 @@
   "entrypoints": [
     "static/js/runtime-main.30f8a045.js",
     "static/js/2.a2c24b48.chunk.js",
-    "static/css/main.4fd496f3.chunk.css",
+    "static/css/main.efdde0b6.chunk.css",
     "static/js/main.140c9717.chunk.js"
   ]
 }
