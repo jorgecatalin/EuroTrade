@@ -1,9 +1,8 @@
 import React from "react"
 import BaraDreapta from "./BaraDreapta.js"
-
 export default function Proiect(props) {
   const data = props.date.poze.map((id) => {
-    return <img src={id}></img>
+    return <img src={id.original}></img>
   })
   return (
     <div className="ContainerProiect">

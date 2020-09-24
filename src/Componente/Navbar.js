@@ -1,7 +1,24 @@
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 import { BrowserRouter as Router, Link } from "react-router-dom"
+let sw = true
 export default function Navbar(props) {
   const [display, setDisplay] = useState("none")
+  function clickTop() {
+    window.scrollTo({ top: 0 })
+  }
+  useEffect(() => {
+    window.onscroll = function () {
+      if (window.pageYOffset > 150 && sw) {
+        sw = false
+        console.log("aiciNavbar")
+        document.getElementById("Navbar").classList.add("NavbarFixed")
+      } else if (!sw && window.pageYOffset <= 150) {
+        sw = true
+        console.log("josnavbar")
+        document.getElementById("Navbar").classList.remove("NavbarFixed")
+      }
+    }
+  }, [])
   function apasa() {
     console.log(window.location.pathname)
     if (display == "block") {
@@ -11,27 +28,76 @@ export default function Navbar(props) {
     }
   }
   return (
-    <div className="Navbar">
+    <div className={props.data} id="Navbar">
       <div className="NavbarTitlu">Euro Trade Consulting</div>
       <div className="NavbarDreapta">
-        <Link to="/EuroTrade/Contact">
-          <div>CONTACT</div>
+        <Link
+          onClick={clickTop}
+          style={{ padding: "0 10px 0 10px" }}
+          to="/EuroTrade/Contact"
+        >
+          <div
+            style={
+              window.location.pathname == "/EuroTrade/Contact"
+                ? { borderBottom: "solid var(--culoare) 3px" }
+                : { border: "none" }
+            }
+          >
+            CONTACT
+          </div>
         </Link>
-        <Link to="/EuroTrade/Portofoliu">
-          <div>PORTOFOLIU</div>
+        <Link
+          onClick={clickTop}
+          to="/EuroTrade/Portofoliu"
+          style={{ padding: "0 10px 0 10px" }}
+        >
+          <div
+            style={
+              window.location.pathname == "/EuroTrade/Portofoliu"
+                ? { borderBottom: "solid var(--culoare) 3px" }
+                : { border: "none" }
+            }
+          >
+            PORTOFOLIU
+          </div>
         </Link>
-        <Link to="/EuroTrade/Utilaje">
-          <div>UTILAJE</div>
+        <Link
+          onClick={clickTop}
+          to="/EuroTrade/Utilaje"
+          style={{ padding: "0 10px 0 10px" }}
+        >
+          <div
+            style={
+              window.location.pathname == "/EuroTrade/Utilaje"
+                ? { borderBottom: "solid var(--culoare) 3px" }
+                : { border: "none" }
+            }
+          >
+            UTILAJE
+          </div>
         </Link>
-        <Link to="/EuroTrade">
-          <div>ACASA</div>
+        <Link
+          onClick={clickTop}
+          to="/EuroTrade"
+          style={{ padding: "0 10px 0 10px" }}
+        >
+          <div
+            style={
+              window.location.pathname == "/EuroTrade"
+                ? { borderBottom: "solid var(--culoare) 3px" }
+                : { border: "none" }
+            }
+          >
+            ACASA
+          </div>
         </Link>
       </div>
-      <div class="NavbarDreaptaResponsive" onClick={apasa}>
+      <div className="NavbarDreaptaResponsive" onClick={apasa}>
         <div style={{ cursor: "pointer", userSelect: "none" }}>=</div>
         <div className="MeniuResponsiv" style={{ display: display }}>
           <div>
             <Link
+              onClick={clickTop}
               style={
                 window.location.pathname == "/EuroTrade/Contact"
                   ? { color: "var(--culoare)" }
@@ -44,6 +110,7 @@ export default function Navbar(props) {
           </div>
           <div>
             <Link
+              onClick={clickTop}
               style={
                 window.location.pathname == "/EuroTrade/Portofoliu"
                   ? { color: "var(--culoare)" }
@@ -57,6 +124,7 @@ export default function Navbar(props) {
 
           <div>
             <Link
+              onClick={clickTop}
               style={
                 window.location.pathname == "/EuroTrade/Utilaje"
                   ? { color: "var(--culoare)" }
@@ -69,8 +137,9 @@ export default function Navbar(props) {
           </div>
           <div>
             <Link
+              onClick={clickTop}
               style={
-                window.location.pathname == "/EuroTrade/"
+                window.location.pathname == "/EuroTrade"
                   ? { color: "var(--culoare)" }
                   : { color: "white" }
               }

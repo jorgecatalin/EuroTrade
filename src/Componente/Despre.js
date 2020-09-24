@@ -4,7 +4,9 @@ function Despree() {
   return (
     <div className="Despre">
       <div className="DespreStanga">
-        <div className="DespreTitluSectiune">Despre noi</div>
+        <div className="DespreTitluSectiune">
+          <div>Despre noi</div>
+        </div>
         <div>
           Societatea noastra este o organizatie competenta, deschisa si
           orientata catre client. Societatea noastra este o organizatie
