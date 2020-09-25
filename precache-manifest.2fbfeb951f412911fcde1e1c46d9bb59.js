@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7e94c8aab4ba132fb5ef422c01852411",
+    "revision": "1e0feec486a0f18f00e93d2adac8d24c",
     "url": "/EuroTrade/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/EuroTrade/static/css/4.dd7005ff.chunk.css"
   },
   {
-    "revision": "25184aaf18bdfc943853",
+    "revision": "022aa3077ae438a3c7f9",
     "url": "/EuroTrade/static/css/main.bd67e227.chunk.css"
   },
   {
@@ -48,8 +48,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/EuroTrade/static/js/8.47ebbd4d.chunk.js"
   },
   {
-    "revision": "25184aaf18bdfc943853",
-    "url": "/EuroTrade/static/js/main.c7efb8d0.chunk.js"
+    "revision": "022aa3077ae438a3c7f9",
+    "url": "/EuroTrade/static/js/main.13bcf614.chunk.js"
   },
   {
     "revision": "1f15f4eddbe854dec838",
