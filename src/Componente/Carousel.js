@@ -27,9 +27,9 @@ export default function Carousel(props) {
   const [x, setX] = useState(0)
   useEffect(() => {
     const interval = setInterval(() => {
-      if (secunde > 5) {
-        dreapta()
+      if (secunde > 3) {
         secunde = 0
+        dreapta()
       } else secunde++
     }, 1000)
   }, [])
@@ -45,17 +45,27 @@ export default function Carousel(props) {
     }
   }
   async function dreapta() {
-    console.log("index este ", index, "x este ", x)
+    let dateFrom = await getCurrentHookValue(setIndex)
     secunde = 0
-    if (index == slidere.length - 1) {
-      await setIndex(0)
-      await setX(0)
+    console.log(index)
+    if (dateFrom == slidere.length - 1) {
+      console.log(index)
+      setIndex(0)
+      setX(0)
     } else {
-      await setIndex(index + 1)
-      await setX(x - 100)
+      console.log("afwwww", index)
+      setIndex((index) => index + 1)
+      setX((x) => x - 100)
     }
   }
-
+  async function getCurrentHookValue(setHookFunction) {
+    return new Promise((resolve) => {
+      setHookFunction((prev) => {
+        resolve(prev)
+        return prev
+      })
+    })
+  }
   function schimba(ind) {
     secunde = 0
     console.log(ind)

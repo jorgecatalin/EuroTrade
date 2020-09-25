@@ -193,7 +193,6 @@ a {
   flex-direction: column;
   font-family: "Lato", sans-serif;
   font-size: 3vh;
-  align-items: stretch;
   background-color: rgb(221, 221, 221);
 }
 .ContactTitlu {
@@ -207,6 +206,9 @@ a {
 .ContactInformatii {
   display: flex;
   flex-direction: column;
+}
+.ContactInformatii div {
+  flex: 1;
 }
 .Adresa {
   display: flex;
@@ -575,6 +577,24 @@ a {
   width: 100%;
   height: 50vh;
 }
+.ComponentaContacte {
+  width: 100%;
+  padding: 15vh var(--margine) 15vh var(--margine);
+}
+.googleMap {
+  position: relative;
+  height: 700px;
+  margin: 0 var(--margine) var(--margine);
+}
+.mapa {
+  width: 500px;
+}
+.ContactRow {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  flex: 1;
+}
 @media only screen and (max-width: 1350px) {
   :root {
     --margine: 10%;
@@ -615,12 +635,15 @@ a {
     margin-top: 10vh;
   }
   .Contact {
-    min-height: 100vh;
+    min-height: 200vh;
     justify-content: center;
   }
   .ContactTitlu {
     width: 100%;
     text-align: center;
+  }
+  .ContactSubTitlu {
+    margin: 0 0 30px 0;
   }
   .Adresa {
     flex-direction: column;
@@ -642,5 +665,8 @@ a {
   }
   .Card {
     width: 100%;
+  }
+  .ContactRow {
+    flex-direction: column;
   }
 }
