@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7e00aeba64232dc54506aa4d31dd3538",
+    "revision": "32b94b808792efcdf67fed95bf53ff38",
     "url": "/EuroTrade/index.html"
   },
   {
-    "revision": "ad712e8c4e251cb7f655",
-    "url": "/EuroTrade/static/css/main.5b7babb5.chunk.css"
+    "revision": "10915304e36472987416",
+    "url": "/EuroTrade/static/css/main.69c079d4.chunk.css"
   },
   {
     "revision": "116f1d9488f4630fcb38",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/EuroTrade/static/js/2.586d144a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ad712e8c4e251cb7f655",
-    "url": "/EuroTrade/static/js/main.bed6fa07.chunk.js"
+    "revision": "10915304e36472987416",
+    "url": "/EuroTrade/static/js/main.c05e5a58.chunk.js"
   },
   {
     "revision": "0102a810ae8a56db4abc",
@@ -96,27 +96,27 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/EuroTrade/static/media/7.34edd6aa.jpg"
   },
   {
-    "revision": "0d41abfc6ae77c8457a65a6f3d02013c",
-    "url": "/EuroTrade/static/media/Despre.0d41abfc.jpg"
+    "revision": "5fffaa0e3569c06cd7260062905f6e3c",
+    "url": "/EuroTrade/static/media/Despre.5fffaa0e.jpg"
   },
   {
-    "revision": "61f1986fcce058b7d1d9df4dd7adc53f",
-    "url": "/EuroTrade/static/media/InformatiiNumar3.61f1986f.jpg"
+    "revision": "4bbde3566d3657df161a1982fa7b9156",
+    "url": "/EuroTrade/static/media/InformatiiNumar3.4bbde356.jpg"
   },
   {
-    "revision": "d52b7c2106080fa630568e996e01be97",
-    "url": "/EuroTrade/static/media/back1.d52b7c21.png"
+    "revision": "47cbd65544696f4917bd49d1b3181f7d",
+    "url": "/EuroTrade/static/media/back1.47cbd655.jpg"
   },
   {
-    "revision": "578031149feae09e5edf82b3206d84ca",
-    "url": "/EuroTrade/static/media/back2.57803114.jpg"
+    "revision": "60a397b636b9a7b33f37504d5e05aa4b",
+    "url": "/EuroTrade/static/media/back2.60a397b6.jpg"
   },
   {
-    "revision": "462d4517f07bbc232aee2438ada5bb19",
-    "url": "/EuroTrade/static/media/background.462d4517.jpg"
+    "revision": "ae28697ec8158797d7611fa1aa78f1f4",
+    "url": "/EuroTrade/static/media/background.ae28697e.jpg"
   },
   {
-    "revision": "fafcf6f7eb749cd2b3c3eafb31e5e4ea",
-    "url": "/EuroTrade/static/media/macara.fafcf6f7.jpg"
+    "revision": "ddf64c352308602982ef0bfdecedeff1",
+    "url": "/EuroTrade/static/media/macara.ddf64c35.jpg"
   }
 ]);

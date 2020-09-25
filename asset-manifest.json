@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/EuroTrade/static/css/main.5b7babb5.chunk.css",
-    "main.js": "/EuroTrade/static/js/main.bed6fa07.chunk.js",
-    "main.js.map": "/EuroTrade/static/js/main.bed6fa07.chunk.js.map",
+    "main.css": "/EuroTrade/static/css/main.69c079d4.chunk.css",
+    "main.js": "/EuroTrade/static/js/main.c05e5a58.chunk.js",
+    "main.js.map": "/EuroTrade/static/js/main.c05e5a58.chunk.js.map",
     "runtime-main.js": "/EuroTrade/static/js/runtime-main.30f8a045.js",
     "runtime-main.js.map": "/EuroTrade/static/js/runtime-main.30f8a045.js.map",
     "static/js/2.586d144a.chunk.js": "/EuroTrade/static/js/2.586d144a.chunk.js",
     "static/js/2.586d144a.chunk.js.map": "/EuroTrade/static/js/2.586d144a.chunk.js.map",
     "index.html": "/EuroTrade/index.html",
-    "precache-manifest.7b7ee2d4ce5651098e9ea86383a0b443.js": "/EuroTrade/precache-manifest.7b7ee2d4ce5651098e9ea86383a0b443.js",
+    "precache-manifest.910f2de63af98af24ed9a19938267b34.js": "/EuroTrade/precache-manifest.910f2de63af98af24ed9a19938267b34.js",
     "service-worker.js": "/EuroTrade/service-worker.js",
-    "static/css/main.5b7babb5.chunk.css.map": "/EuroTrade/static/css/main.5b7babb5.chunk.css.map",
+    "static/css/main.69c079d4.chunk.css.map": "/EuroTrade/static/css/main.69c079d4.chunk.css.map",
     "static/js/2.586d144a.chunk.js.LICENSE.txt": "/EuroTrade/static/js/2.586d144a.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/EuroTrade/static/media/1.f2703cf2.jpg",
     "static/media/11.jpg": "/EuroTrade/static/media/11.4f302498.jpg",
@@ -30,17 +30,17 @@
     "static/media/5.jpg": "/EuroTrade/static/media/5.c198180f.jpg",
     "static/media/6.jpg": "/EuroTrade/static/media/6.56e23dd4.jpg",
     "static/media/7.jpg": "/EuroTrade/static/media/7.34edd6aa.jpg",
-    "static/media/Despre.jpg": "/EuroTrade/static/media/Despre.0d41abfc.jpg",
-    "static/media/index.css": "/EuroTrade/static/media/InformatiiNumar3.61f1986f.jpg",
-    "static/media/back1.png": "/EuroTrade/static/media/back1.d52b7c21.png",
-    "static/media/back2.jpg": "/EuroTrade/static/media/back2.57803114.jpg",
-    "static/media/background.jpg": "/EuroTrade/static/media/background.462d4517.jpg",
-    "static/media/macara.jpg": "/EuroTrade/static/media/macara.fafcf6f7.jpg"
+    "static/media/Despre.jpg": "/EuroTrade/static/media/Despre.5fffaa0e.jpg",
+    "static/media/index.css": "/EuroTrade/static/media/InformatiiNumar3.4bbde356.jpg",
+    "static/media/back1.jpg": "/EuroTrade/static/media/back1.47cbd655.jpg",
+    "static/media/back2.jpg": "/EuroTrade/static/media/back2.60a397b6.jpg",
+    "static/media/background.jpg": "/EuroTrade/static/media/background.ae28697e.jpg",
+    "static/media/macara.jpg": "/EuroTrade/static/media/macara.ddf64c35.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.30f8a045.js",
     "static/js/2.586d144a.chunk.js",
-    "static/css/main.5b7babb5.chunk.css",
-    "static/js/main.bed6fa07.chunk.js"
+    "static/css/main.69c079d4.chunk.css",
+    "static/js/main.c05e5a58.chunk.js"
   ]
 }
