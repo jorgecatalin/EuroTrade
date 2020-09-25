@@ -1,38 +1,46 @@
-import React from "react"
+import React, { useState } from "react"
 import Navbar from "./Componente/Navbar.js"
 import Titlu from "./ComponentePortofoliu/Titlu.js"
 import Proiect from "./ComponentePortofoliu/Proiect.js"
 import Footer from "./Componente/Footer.js"
 import { CSSTransition } from "react-transition-group"
-
+import Galerie from "./ComponentePortofoliu/Galerie.js"
+import "./galerie.css"
 let poze = [
   {
     original: require("./Imagini/Portofoliu/CareuForaj/1.jpg"),
     thumbnail: require("./Imagini/Portofoliu/CareuForaj/1.jpg"),
+    description: "Inainte",
   },
   {
     original: require("./Imagini/Portofoliu/CareuForaj/2.jpg"),
-    thumbnail: require("./Imagini/Portofoliu/CareuForaj/1.jpg"),
+    thumbnail: require("./Imagini/Portofoliu/CareuForaj/2.jpg"),
+    description: "Inainte",
   },
   {
     original: require("./Imagini/Portofoliu/CareuForaj/3.jpg"),
-    thumbnail: require("./Imagini/Portofoliu/CareuForaj/1.jpg"),
+    thumbnail: require("./Imagini/Portofoliu/CareuForaj/3.jpg"),
+    description: "Inainte",
   },
   {
     original: require("./Imagini/Portofoliu/CareuForaj/4.jpg"),
-    thumbnail: require("./Imagini/Portofoliu/CareuForaj/1.jpg"),
+    thumbnail: require("./Imagini/Portofoliu/CareuForaj/4.jpg"),
+    description: "Inainte",
   },
   {
     original: require("./Imagini/Portofoliu/CareuForaj/5.jpg"),
-    thumbnail: require("./Imagini/Portofoliu/CareuForaj/1.jpg"),
+    thumbnail: require("./Imagini/Portofoliu/CareuForaj/5.jpg"),
+    description: "Dupa",
   },
   {
     original: require("./Imagini/Portofoliu/CareuForaj/6.jpg"),
-    thumbnail: require("./Imagini/Portofoliu/CareuForaj/1.jpg"),
+    thumbnail: require("./Imagini/Portofoliu/CareuForaj/6.jpg"),
+    description: "Dupa",
   },
   {
     original: require("./Imagini/Portofoliu/CareuForaj/7.jpg"),
-    thumbnail: require("./Imagini/Portofoliu/CareuForaj/1.jpg"),
+    thumbnail: require("./Imagini/Portofoliu/CareuForaj/7.jpg"),
+    description: "Dupa",
   },
 ]
 
@@ -50,9 +58,18 @@ let poze2 = [
   require("./Imagini/Portofoliu/CareuForaj/21.jpg"),
 ]
 export default function Portofoliu(props) {
+  const [show, setShow] = useState(false)
+  function inchideGaleria() {
+    setShow(false)
+  }
+  function deschideGaleria() {
+    setShow(true)
+  }
   return (
     <div>
       <Navbar data={"Navbar2"}></Navbar>
+      {show ? <Galerie date={{ poze, inchideGaleria }}></Galerie> : <div></div>}
+
       <div
         style={{
           margin: "15vh 0 0 0",
@@ -70,6 +87,7 @@ export default function Portofoliu(props) {
           locatia: "Bibesti 213",
           poze: poze,
           dimensiuneBara: "110%",
+          deschideGaleria,
         }}
       ></Proiect>
       <Proiect
@@ -79,6 +97,7 @@ export default function Portofoliu(props) {
           locatia: "Bolaria Sd 2163",
           poze: poze,
           dimensiuneBara: "110%",
+          deschideGaleria,
         }}
       ></Proiect>
       <Proiect
@@ -88,6 +107,7 @@ export default function Portofoliu(props) {
           locatia: "Bolaria Sd 2163",
           poze: poze,
           dimensiuneBara: "80%",
+          deschideGaleria,
         }}
       ></Proiect>
       <Footer></Footer>

@@ -309,12 +309,6 @@ a {
   color: rgb(59, 59, 59);
   margin-top: -2vh;
 }
-.ContainerProiect img {
-  width: 30%;
-  height: 30vh;
-  margin: 10px;
-  box-shadow: 0px 0px 5px 1px rgb(53, 53, 53);
-}
 .pozePortofoliu {
   display: flex;
   flex-wrap: wrap;
@@ -595,6 +589,57 @@ a {
   position: relative;
   flex: 1;
 }
+.ContainerGalerie {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 3000;
+  background-color: rgba(1, 1, 1, 0.5);
+}
+.ContainerGalerie div {
+  box-shadow: 0 0 0 0;
+}
+.ContainerGalerieInchide {
+  position: fixed;
+  right: 50px;
+  top: 50px;
+  font-size: 5vh;
+  color: white;
+  z-index: 4000;
+  cursor: pointer;
+  font-weight: 900;
+}
+.galerieHidden {
+  position: absolute;
+  display: none;
+}
+.descrierePozaProiect {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-size: 3vh;
+  color: white;
+  font-weight: 900;
+}
+.pozaProiect {
+  width: 30%;
+  height: 30vh;
+  margin: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+  position: relative;
+  box-shadow: 4px 4px 5px 0px rgb(44, 44, 44);
+}
+.pozaProiect img {
+  width: 100%;
+  height: 100%;
+}
+.pozaProiect:hover {
+  transform: scale(1.2);
+  z-index: 150;
+}
 @media only screen and (max-width: 1350px) {
   :root {
     --margine: 10%;
@@ -656,9 +701,8 @@ a {
     flex-direction: column;
   }
   .ContainerProiect img {
-    width: 95%;
-    height: 30vh;
-    margin: 10px;
+    width: 100%;
+    height: 100%;
   }
   .containerPortofoliuDate {
     text-align: center;
@@ -666,7 +710,17 @@ a {
   .Card {
     width: 100%;
   }
+  .Card img {
+    height: 50vh;
+  }
   .ContactRow {
+    flex-direction: column;
+  }
+  .pozaProiect {
+    width: 90%;
+    height: 50vh;
+  }
+  .UtilajContainer {
     flex-direction: column;
   }
 }
