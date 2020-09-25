@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7b70e6d29def396da9812341bbe8e95c",
+    "revision": "70ebaab2edcb85a966e906cb49d6811d",
     "url": "/EuroTrade/index.html"
   },
   {
-    "revision": "10915304e36472987416",
-    "url": "/EuroTrade/static/css/main.69c079d4.chunk.css"
+    "revision": "db946719f2272a1a8dcb",
+    "url": "/EuroTrade/static/css/main.a4e5a473.chunk.css"
   },
   {
     "revision": "116f1d9488f4630fcb38",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/EuroTrade/static/js/2.586d144a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "10915304e36472987416",
+    "revision": "db946719f2272a1a8dcb",
     "url": "/EuroTrade/static/js/main.c05e5a58.chunk.js"
   },
   {
@@ -102,6 +102,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4bbde3566d3657df161a1982fa7b9156",
     "url": "/EuroTrade/static/media/InformatiiNumar3.4bbde356.jpg"
+  },
+  {
+    "revision": "2fe27d9d10cdfccb1baef28a45d5ba90",
+    "url": "/EuroTrade/static/media/Lato-Light.2fe27d9d.ttf"
+  },
+  {
+    "revision": "27e3649bab7c62fa21b8837c4842e40e",
+    "url": "/EuroTrade/static/media/Montserrat-Black.27e3649b.ttf"
   },
   {
     "revision": "47cbd65544696f4917bd49d1b3181f7d",
