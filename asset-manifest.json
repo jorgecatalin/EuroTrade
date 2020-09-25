@@ -1,17 +1,19 @@
 {
   "files": {
     "main.css": "/EuroTrade/static/css/main.a4e5a473.chunk.css",
-    "main.js": "/EuroTrade/static/js/main.c05e5a58.chunk.js",
-    "main.js.map": "/EuroTrade/static/js/main.c05e5a58.chunk.js.map",
-    "runtime-main.js": "/EuroTrade/static/js/runtime-main.30f8a045.js",
-    "runtime-main.js.map": "/EuroTrade/static/js/runtime-main.30f8a045.js.map",
-    "static/js/2.586d144a.chunk.js": "/EuroTrade/static/js/2.586d144a.chunk.js",
-    "static/js/2.586d144a.chunk.js.map": "/EuroTrade/static/js/2.586d144a.chunk.js.map",
+    "main.js": "/EuroTrade/static/js/main.fa52ee52.chunk.js",
+    "main.js.map": "/EuroTrade/static/js/main.fa52ee52.chunk.js.map",
+    "runtime-main.js": "/EuroTrade/static/js/runtime-main.941ad0f9.js",
+    "runtime-main.js.map": "/EuroTrade/static/js/runtime-main.941ad0f9.js.map",
+    "static/js/2.43e3db78.chunk.js": "/EuroTrade/static/js/2.43e3db78.chunk.js",
+    "static/js/2.43e3db78.chunk.js.map": "/EuroTrade/static/js/2.43e3db78.chunk.js.map",
+    "static/js/3.3f6d3586.chunk.js": "/EuroTrade/static/js/3.3f6d3586.chunk.js",
+    "static/js/3.3f6d3586.chunk.js.map": "/EuroTrade/static/js/3.3f6d3586.chunk.js.map",
     "index.html": "/EuroTrade/index.html",
-    "precache-manifest.2adf0f3650c8f1d6032f4ca0ceb7f223.js": "/EuroTrade/precache-manifest.2adf0f3650c8f1d6032f4ca0ceb7f223.js",
+    "precache-manifest.c22089ad9dff8c8eb6b09bcd19e8d11e.js": "/EuroTrade/precache-manifest.c22089ad9dff8c8eb6b09bcd19e8d11e.js",
     "service-worker.js": "/EuroTrade/service-worker.js",
     "static/css/main.a4e5a473.chunk.css.map": "/EuroTrade/static/css/main.a4e5a473.chunk.css.map",
-    "static/js/2.586d144a.chunk.js.LICENSE.txt": "/EuroTrade/static/js/2.586d144a.chunk.js.LICENSE.txt",
+    "static/js/2.43e3db78.chunk.js.LICENSE.txt": "/EuroTrade/static/js/2.43e3db78.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/EuroTrade/static/media/1.f2703cf2.jpg",
     "static/media/11.jpg": "/EuroTrade/static/media/11.4f302498.jpg",
     "static/media/12.jpg": "/EuroTrade/static/media/12.20e516be.jpg",
@@ -38,9 +40,9 @@
     "static/media/macara.jpg": "/EuroTrade/static/media/macara.ddf64c35.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.30f8a045.js",
-    "static/js/2.586d144a.chunk.js",
+    "static/js/runtime-main.941ad0f9.js",
+    "static/js/2.43e3db78.chunk.js",
     "static/css/main.a4e5a473.chunk.css",
-    "static/js/main.c05e5a58.chunk.js"
+    "static/js/main.fa52ee52.chunk.js"
   ]
 }
