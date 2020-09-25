@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e033c847d940c56ee840b981254ef3c2",
+    "revision": "3d4d30714e04837565935327c982ef3c",
     "url": "/EuroTrade/index.html"
   },
   {
-    "revision": "387989d7b492cd1f4344",
-    "url": "/EuroTrade/static/css/main.b975d754.chunk.css"
+    "revision": "badbde15e0404a76265c",
+    "url": "/EuroTrade/static/css/main.d56cb845.chunk.css"
   },
   {
     "revision": "116f1d9488f4630fcb38",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/EuroTrade/static/js/2.586d144a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "387989d7b492cd1f4344",
+    "revision": "badbde15e0404a76265c",
     "url": "/EuroTrade/static/js/main.ad20108d.chunk.js"
   },
   {
