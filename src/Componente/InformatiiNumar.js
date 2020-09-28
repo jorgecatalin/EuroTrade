@@ -10,7 +10,6 @@ class InformatiiNumar extends Component {
     numar = 1
   }
   arata(x) {
-    console.log("afawfwa")
     if (this.props.inViewport && numar < 5) {
       numar++
       return <CountUp start={0} end={x} duration={3} delay={0.3}></CountUp>

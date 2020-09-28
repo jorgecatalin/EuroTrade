@@ -14,6 +14,7 @@ export default function Galerie(props) {
         items={props.date.poze}
         lazyLoad={true}
         showBullets={true}
+        startIndex={props.date.index | 0}
       ></ImageGallery>
     </div>
   )

@@ -1,15 +1,17 @@
-import React from "react"
+import React, { Suspense, lazy } from "react"
 import ReactDOM from "react-dom"
 import "./index.css"
 import "./transitii.css"
-import App from "./App"
-import Utilaje from "./Utilaje"
-import Portofoliu from "./Portofoliu"
-import Contact from "./Contact"
-
 import * as serviceWorker from "./serviceWorker"
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom"
 
+import App from "./App.js"
+import Utilaje from "./Utilaje.js"
+import Portofoliu from "./Portofoliu.js"
+import Contact from "./Contact.js"
+//const Utilaje = lazy(() => import("./Utilaje"))
+//const Portofoliu = lazy(() => import("./Portofoliu"))
+//const Contact = lazy(() => import("./Contact"))
 ReactDOM.render(
   <React.StrictMode>
     <Router>

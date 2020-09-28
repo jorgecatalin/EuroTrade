@@ -57,18 +57,26 @@ let poze2 = [
   require("./Imagini/Portofoliu/CareuForaj/20.jpg"),
   require("./Imagini/Portofoliu/CareuForaj/21.jpg"),
 ]
+let index = 0
 export default function Portofoliu(props) {
   const [show, setShow] = useState(false)
   function inchideGaleria() {
     setShow(false)
   }
-  function deschideGaleria() {
+  function deschideGaleria(ind) {
+    index = ind
     setShow(true)
   }
   return (
     <div>
-      <Navbar data={"Navbar2"}></Navbar>
-      {show ? <Galerie date={{ poze, inchideGaleria }}></Galerie> : <div></div>}
+      <CSSTransition appear={true} in={true} timeout={500} classNames="fade2">
+        <Navbar data={"Navbar2"}></Navbar>
+      </CSSTransition>
+      {show ? (
+        <Galerie date={{ poze, inchideGaleria, index }}></Galerie>
+      ) : (
+        <div></div>
+      )}
 
       <div
         style={{

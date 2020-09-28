@@ -13,7 +13,7 @@ let slidere = [
     titlu: "IN BUSSINESS DE PESTE 15 ANI",
   },
   {
-    img: require("../Imagini/back1.png"),
+    img: require("../Imagini/back1.jpg"),
     titlu: "DISPUNEM DE SERVICII IN CONSTRUCTIE SI INCHIRIERI UTILAJE",
   },
   {
@@ -21,6 +21,23 @@ let slidere = [
     titlu: "PESTE 40 PROIECTE FINALIZATE CU SUCCES ",
   },
 ]
+console.log(window.innerWidth)
+if (window.innerWidth < 800) {
+  slidere = [
+    {
+      img: require("../Imagini/backgroundResponsive.jpg"),
+      titlu: "IN BUSSINESS DE PESTE 15 ANI",
+    },
+    {
+      img: require("../Imagini/back1Responsive.jpg"),
+      titlu: "DISPUNEM DE SERVICII IN CONSTRUCTIE SI INCHIRIERI UTILAJE",
+    },
+    {
+      img: require("../Imagini/back2Responsive.jpg"),
+      titlu: "PESTE 40 PROIECTE FINALIZATE CU SUCCES ",
+    },
+  ]
+}
 let secunde = 0
 export default function Carousel(props) {
   const [index, setIndex] = useState(0)
@@ -34,7 +51,6 @@ export default function Carousel(props) {
     }, 1000)
   }, [])
   function stanga() {
-    console.log("index este ", index, "x este ", x)
     secunde = 0
     if (index == 0) {
       setIndex(slidere.length - 1)
@@ -47,13 +63,10 @@ export default function Carousel(props) {
   async function dreapta() {
     let dateFrom = await getCurrentHookValue(setIndex)
     secunde = 0
-    console.log(index)
     if (dateFrom == slidere.length - 1) {
-      console.log(index)
       setIndex(0)
       setX(0)
     } else {
-      console.log("afwwww", index)
       setIndex((index) => index + 1)
       setX((x) => x - 100)
     }
@@ -68,7 +81,6 @@ export default function Carousel(props) {
   }
   function schimba(ind) {
     secunde = 0
-    console.log(ind)
     setX(100 * -ind)
     setIndex(ind)
   }

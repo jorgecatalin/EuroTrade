@@ -2,10 +2,13 @@ import React from "react"
 import Navbar from "./Componente/Navbar.js"
 import Utilaj from "./ComponenteUtilaje/Utilaj.js"
 import Footer from "./Componente/Footer.js"
+import { CSSTransition } from "react-transition-group"
 export default function Utilaje(props) {
   return (
     <div>
-      <Navbar data={"Navbar2"}></Navbar>
+      <CSSTransition appear={true} in={true} timeout={500} classNames="fade2">
+        <Navbar data={"Navbar2"}></Navbar>
+      </CSSTransition>
       <div
         style={{
           margin: "15vh 0 0 0",

@@ -2,10 +2,13 @@ import React, { useState } from "react"
 import BaraDreapta from "./BaraDreapta.js"
 
 export default function Proiect(props) {
-  const data = props.date.poze.map((id) => {
+  const data = props.date.poze.map((id, index) => {
     return (
       <div className="pozaProiect">
-        <img src={id.original} onClick={props.date.deschideGaleria}></img>
+        <img
+          src={id.original}
+          onClick={() => props.date.deschideGaleria(index)}
+        ></img>
         <div className="descrierePozaProiect">{id.description}</div>
       </div>
     )

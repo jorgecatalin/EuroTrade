@@ -8,6 +8,22 @@
   --timp: 500ms;
   --culoareBara: rgb(65 163 255);
   --margine: 8%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("./Lato-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("./Montserrat-Black.ttf") format("truetype");
 }
 body {
   border: 0;
@@ -333,22 +349,27 @@ a {
   position: fixed;
   padding: 20vh 5% 5vh 5%;
   top: 0;
-  left: 0;
-  right: 0;
+  left: 100%;
   bottom: 0;
   width: 100%;
-  color: white;
-  background-color: var(--text);
+  color: rgba(55, 55, 55, 1);
+  background-color: rgba(255, 255, 255, 1);
   font-size: 7vh;
   text-align: center;
   z-index: 2000;
+  transition: 0.5s;
+  opacity: 0;
 }
 .DisplayTrue {
-  display: block;
+  opacity: 1;
+  transition: 0.5s;
+  transform: translateX(-100%);
 }
 .MeniuResponsiv div {
   margin-top: 2vh;
-  color: white;
+  color: rgba(55, 55, 55, 1);
+  text-shadow: none !important;
+  user-select: none;
 }
 .MeniuResponsivApasa {
   position: absolute;
@@ -367,7 +388,7 @@ a {
   display: flex;
   flex-direction: column;
   width: 100%;
-  padding: 15vh var(--margine) 15vh var(--margine);
+  padding: 15vh var(--margine) 5vh var(--margine);
   font-size: 3.5vh;
 }
 
@@ -505,7 +526,7 @@ a {
   overflow: hidden;
   background: white;
   font-family: arial;
-  margin-bottom: 15vh;
+  margin-bottom: 8vh;
 }
 .CardSubtitlu {
   font-size: 2.5vh;
@@ -628,17 +649,16 @@ a {
   height: 30vh;
   margin: 10px;
   cursor: pointer;
-  transition: 0.5s;
   position: relative;
-  box-shadow: 4px 4px 5px 0px rgb(44, 44, 44);
+  box-shadow: 4px 4px 2px 0px rgb(119, 119, 119);
 }
 .pozaProiect img {
   width: 100%;
   height: 100%;
 }
 .pozaProiect:hover {
-  transform: scale(1.2);
-  z-index: 150;
+  transition: 0.2s;
+  border: 10px solid var(--culoare);
 }
 @media only screen and (max-width: 1350px) {
   :root {
@@ -699,6 +719,12 @@ a {
   }
   .Despre {
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .DespreTitluSectiune {
+    text-align: center;
+    align-items: center;
   }
   .ContainerProiect img {
     width: 100%;
@@ -722,5 +748,14 @@ a {
   }
   .UtilajContainer {
     flex-direction: column;
+  }
+  .BackgroundTopTransitie {
+    font-size: 6vh;
+  }
+  .CarouselButonCerc {
+    font-size: 3vh;
+  }
+  .CarouselBackground {
+    aspect-ratio: 1/3;
   }
 }

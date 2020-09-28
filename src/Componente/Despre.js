@@ -27,7 +27,6 @@ function Despree() {
 
 class MySectionBlock extends Component {
   getStyle() {
-    console.log("intra descriere")
     const { inViewport, enterCount } = this.props
     //Fade in only the first time we enter the viewport
     if (inViewport && enterCount === 1) {
