@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/EuroTrade/static/css/main.655c20ef.chunk.css",
-    "main.js": "/EuroTrade/static/js/main.5bbe6275.chunk.js",
-    "main.js.map": "/EuroTrade/static/js/main.5bbe6275.chunk.js.map",
+    "main.css": "/EuroTrade/static/css/main.994adad6.chunk.css",
+    "main.js": "/EuroTrade/static/js/main.b38623fe.chunk.js",
+    "main.js.map": "/EuroTrade/static/js/main.b38623fe.chunk.js.map",
     "runtime-main.js": "/EuroTrade/static/js/runtime-main.a91adda5.js",
     "runtime-main.js.map": "/EuroTrade/static/js/runtime-main.a91adda5.js.map",
-    "static/js/2.8db1fe09.chunk.js": "/EuroTrade/static/js/2.8db1fe09.chunk.js",
-    "static/js/2.8db1fe09.chunk.js.map": "/EuroTrade/static/js/2.8db1fe09.chunk.js.map",
+    "static/js/2.7bb74863.chunk.js": "/EuroTrade/static/js/2.7bb74863.chunk.js",
+    "static/js/2.7bb74863.chunk.js.map": "/EuroTrade/static/js/2.7bb74863.chunk.js.map",
     "static/js/3.d23fb833.chunk.js": "/EuroTrade/static/js/3.d23fb833.chunk.js",
     "static/js/3.d23fb833.chunk.js.map": "/EuroTrade/static/js/3.d23fb833.chunk.js.map",
     "static/js/4.9fa346a0.chunk.js": "/EuroTrade/static/js/4.9fa346a0.chunk.js",
     "static/js/4.9fa346a0.chunk.js.map": "/EuroTrade/static/js/4.9fa346a0.chunk.js.map",
     "index.html": "/EuroTrade/index.html",
-    "precache-manifest.38b24e3e119d590389741103cf67813d.js": "/EuroTrade/precache-manifest.38b24e3e119d590389741103cf67813d.js",
+    "precache-manifest.cc56ef6597616a362525e446a7315efa.js": "/EuroTrade/precache-manifest.cc56ef6597616a362525e446a7315efa.js",
     "service-worker.js": "/EuroTrade/service-worker.js",
-    "static/css/main.655c20ef.chunk.css.map": "/EuroTrade/static/css/main.655c20ef.chunk.css.map",
-    "static/js/2.8db1fe09.chunk.js.LICENSE.txt": "/EuroTrade/static/js/2.8db1fe09.chunk.js.LICENSE.txt",
+    "static/css/main.994adad6.chunk.css.map": "/EuroTrade/static/css/main.994adad6.chunk.css.map",
+    "static/js/2.7bb74863.chunk.js.LICENSE.txt": "/EuroTrade/static/js/2.7bb74863.chunk.js.LICENSE.txt",
     "static/js/3.d23fb833.chunk.js.LICENSE.txt": "/EuroTrade/static/js/3.d23fb833.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/EuroTrade/static/media/1.f2703cf2.jpg",
     "static/media/11.jpg": "/EuroTrade/static/media/11.4f302498.jpg",
@@ -47,8 +47,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.a91adda5.js",
-    "static/js/2.8db1fe09.chunk.js",
-    "static/css/main.655c20ef.chunk.css",
-    "static/js/main.5bbe6275.chunk.js"
+    "static/js/2.7bb74863.chunk.js",
+    "static/css/main.994adad6.chunk.css",
+    "static/js/main.b38623fe.chunk.js"
   ]
 }
