@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/EuroTrade/static/css/main.6d21a36e.chunk.css",
-    "main.js": "/EuroTrade/static/js/main.5fd2e52d.chunk.js",
-    "main.js.map": "/EuroTrade/static/js/main.5fd2e52d.chunk.js.map",
+    "main.js": "/EuroTrade/static/js/main.353254e8.chunk.js",
+    "main.js.map": "/EuroTrade/static/js/main.353254e8.chunk.js.map",
     "runtime-main.js": "/EuroTrade/static/js/runtime-main.6770552c.js",
     "runtime-main.js.map": "/EuroTrade/static/js/runtime-main.6770552c.js.map",
     "static/js/2.59c08042.chunk.js": "/EuroTrade/static/js/2.59c08042.chunk.js",
@@ -12,12 +12,12 @@
     "static/js/4.9fa346a0.chunk.js": "/EuroTrade/static/js/4.9fa346a0.chunk.js",
     "static/js/4.9fa346a0.chunk.js.map": "/EuroTrade/static/js/4.9fa346a0.chunk.js.map",
     "index.html": "/EuroTrade/index.html",
-    "precache-manifest.7742adb48bd3ca7c1a360d49234d5a32.js": "/EuroTrade/precache-manifest.7742adb48bd3ca7c1a360d49234d5a32.js",
+    "precache-manifest.eefc75cb904f2f4bcd61d449a7c02c5a.js": "/EuroTrade/precache-manifest.eefc75cb904f2f4bcd61d449a7c02c5a.js",
     "service-worker.js": "/EuroTrade/service-worker.js",
     "static/css/main.6d21a36e.chunk.css.map": "/EuroTrade/static/css/main.6d21a36e.chunk.css.map",
     "static/js/2.59c08042.chunk.js.LICENSE.txt": "/EuroTrade/static/js/2.59c08042.chunk.js.LICENSE.txt",
     "static/js/3.1d68ebbd.chunk.js.LICENSE.txt": "/EuroTrade/static/js/3.1d68ebbd.chunk.js.LICENSE.txt",
-    "static/media/1.jpg": "/EuroTrade/static/media/1.f2703cf2.jpg",
+    "static/media/1.jpg": "/EuroTrade/static/media/1.62702eb1.jpg",
     "static/media/11.jpg": "/EuroTrade/static/media/11.4f302498.jpg",
     "static/media/12.jpg": "/EuroTrade/static/media/12.20e516be.jpg",
     "static/media/13.jpg": "/EuroTrade/static/media/13.e3b353d4.jpg",
@@ -49,6 +49,6 @@
     "static/js/runtime-main.6770552c.js",
     "static/js/2.59c08042.chunk.js",
     "static/css/main.6d21a36e.chunk.css",
-    "static/js/main.5fd2e52d.chunk.js"
+    "static/js/main.353254e8.chunk.js"
   ]
 }
